@@ -110,7 +110,7 @@ function buttonDetails(id) {
                     }
         },
         fail: function(e) {
-            console.log("An ewwow has occuwed, pwease twie again.");
+            console.log("An error has occured!");
         }
     });
 }
@@ -156,7 +156,7 @@ function deleteAppointment(id) {
                         });
                     },
                     fail: function(e) {
-                        console.log("An ewwow has occuwed, pwease twie again.");
+                        console.log("An error has occured!");
                     }
                 });
             } else {
@@ -200,7 +200,7 @@ $.ajax({
         }
     },
     fail: function(e) {
-        console.log("An ewwow has occuwed, pwease twie again.");
+        console.log("An error has occured!");
     }
 });
 
@@ -392,7 +392,7 @@ function saveVote(e) {
                 console.log(response);
         },
         error: function (e){
-            console.log("An ewwow has occuwed, pwease twie again.");
+            console.log("An error has occured!");
         }
     });
 }
@@ -436,7 +436,7 @@ function saveAppointment(e) {
                 console.log(response);
         },
         error: function (e){
-            console.log("An ewwow has occuwed, pwease twie again.");
+            console.log("An error has occured!");
         }
     });
 }
@@ -450,7 +450,7 @@ function saveChoice(e) {
             console.log(response);
         },
         error: function (e){
-            console.log("An ewwow has occuwed, pwease twie again.");
+            console.log("An error has occured!");
         }
     });
 }
